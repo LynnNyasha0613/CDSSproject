@@ -1,0 +1,8 @@
+numpy == 1.19.2
+streamlit == 0.52.1
+seaborn == 0.9.0
+pandas == 6.25.1
+scikit_learn== 0.22
+tensorflow == 2.5.0rd
+tornado == 6.1
+cython == 0.29.23
