@@ -3,6 +3,6 @@ streamlit == 0.52.1
 seaborn == 0.9.0
 pandas == 1.3.0
 scikit_learn== 0.22
-tensorflow == 2.5.0rd
+tensorflow == 2.5.0rcl
 tornado == 6.1
 cython == 0.29.23
