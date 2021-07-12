@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ENGIDOCS</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+
+  <div class="centered">
+      
+   <h1> WECLOME TO Auto_Diagnostic</h1>
+   <br>
+  
+
+   <h5>Enter your symptoms for prediction</h5>
+    
+
+
+
+ 
+<form method="POST" action="/Decision_Prediction">
+<input type="submit" value="Decision Prediction">
+</form>
+
+</div>
+
+ <br><br>
+</body>
+</html>
+
